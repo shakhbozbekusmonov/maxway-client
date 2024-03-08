@@ -1,11 +1,13 @@
-import { Button } from '@radix-ui/themes'
+import Header from './components/Header'
 
 const App = () => {
 	return (
-		<div>
-			<Button>Button</Button>
-		</div>
+		<>
+			<Header />
+		</>
 	)
 }
 
 export default App
+
+// <></> -> React.Fragment -> Fragment
