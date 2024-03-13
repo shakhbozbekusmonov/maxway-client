@@ -1,15 +1,13 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+import ProductSort from "./components/productSort/ProductSort";
 
 const App = () => {
-	return (
-		<>
-			<Header />
-			<Footer />
-		</>
-	)
-}
+  return (
+    <>
+      <ProductSort />
+    </>
+  );
+};
 
-export default App
+export default App;
 
 // <></> -> React.Fragment -> Fragment
