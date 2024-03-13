@@ -1,0 +1,13 @@
+.selected-btn{
+    font-family: "Inter";
+    padding: 15px 27px;
+    color: white;
+    border-radius: 27px;
+    background-color:rgb(241, 179, 1);
+}
+.default-btn{
+    font-family: "Inter";
+    padding: 15px 27px;
+    color: black;
+    border-radius: 27px;
+}
