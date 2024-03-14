@@ -1,15 +1,17 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Kombo from "./components/kombo/kombo";
 
 const App = () => {
-	return (
-		<>
-			<Header />
-			<Footer />
-		</>
-	)
-}
+  return (
+    <>
+      <Header />
+      <Kombo />
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;
 
 // <></> -> React.Fragment -> Fragment
